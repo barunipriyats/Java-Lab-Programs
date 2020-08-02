@@ -17,7 +17,7 @@ public class Concatenate_string_using_for_loop {
         String str="";
         for(int i=1;i<=num;i++)
         {
-            str=str+i+"";
+            str=str+i+" ";
         }
         System.out.println("Output:"+str);
     }
