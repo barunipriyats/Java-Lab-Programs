@@ -71,7 +71,7 @@ class invoice
     double amount;
     invoice(int i,customer o1,double a)
     {
-        id=1;
+        id=i;
         o=o1;
         amount=a;
     }
