@@ -26,13 +26,13 @@ public class Total_average {
         System.out.println("Enter 5 subject(ENG,TAM,MAT,SCI,SOC) marks of student 2:");
         for(int i=0;i<=4;i++)
             b[i]=obj.nextDouble();
-        System.out.println("Enter 5 subject(ENG,TAM,MAT,SCI,SOC) marks of student 1:");
+        System.out.println("Enter 5 subject(ENG,TAM,MAT,SCI,SOC) marks of student 3:");
         for(int i=0;i<=4;i++)
             c[i]=obj.nextDouble();
-        System.out.println("Enter 5 subject(ENG,TAM,MAT,SCI,SOC) marks of student 1:");
+        System.out.println("Enter 5 subject(ENG,TAM,MAT,SCI,SOC) marks of student 4:");
         for(int i=0;i<=4;i++)
             d[i]=obj.nextDouble();
-        System.out.println("Enter 5 subject(ENG,TAM,MAT,SCI,SOC) marks of student 1:");
+        System.out.println("Enter 5 subject(ENG,TAM,MAT,SCI,SOC) marks of student 5:");
         for(int i=0;i<=4;i++)
             e[i]=obj.nextDouble();
         
