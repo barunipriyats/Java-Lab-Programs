@@ -85,16 +85,8 @@ class account
             System.out.println("Amount exceeded balance");
         return balance;            
     }
-   
-    @Override
     public String toString()
-    {
-        String a=id; 
-        String b=name; 
-        int t=balance;
-        String n=Integer.toString(balance); 
-        String art=null;
-        art=("\n"+a+"\n"+b+"\n"+n);
-        return(art);    
-    }
+   {
+       return "\nID:"+id+"\tName:"+name+"\tBalance:"+balance;
+   }
 }
