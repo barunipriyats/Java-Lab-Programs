@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 package Lab_ex_4.main_class_of_two_programs;
-import to_kilometer.*; 
-import to_miles_meter.*;
+import Lab_ex_4.to_kilometer.*; 
+import Lab_ex_4.to_miles_meter.*;
 /**
  * @author Baruni Priya T S
  */
