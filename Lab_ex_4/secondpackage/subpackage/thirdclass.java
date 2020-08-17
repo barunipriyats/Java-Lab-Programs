@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package secondpackage.subpackage;
+package Lab_ex_4.secondpackage.subpackage;
 
 /**
  *
