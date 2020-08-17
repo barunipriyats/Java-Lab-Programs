@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 package Lab_ex_4.main_class_of_two_programs;
-import firstpackage.*;
-import secondpackage.*;
-import secondpackage.subpackage.*;
+import Lab_ex_4.firstpackage.*;
+import Lab_ex_4.secondpackage.*;
+import Lab_ex_4.secondpackage.subpackage.*;
 /**
  *
  * @author Baruni Priya T S
