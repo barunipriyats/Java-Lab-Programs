@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lab_ex_4.to_kilometer;
+package to_kilometer;
 import java.util.Scanner;
 /**
  *
