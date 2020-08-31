@@ -11,29 +11,22 @@ import java.util.Scanner;
  */
 public class Tax_calculation {
     public static void main(String[] args) {
-        
         Scanner obj=new Scanner(System.in);
         System.out.println("Enter the gender of the employee:");
         System.out.println("Press 'm' for male and press 'f' for female:");
         String gender=obj.next();
         System.out.println("Enter the income of the employee:");
         double salary=obj.nextDouble();
-   
         employee1 e=new employee1();
         e.information(gender,salary);
         e.show();  
-       
     } 
 }
-
-
 interface customer
 {
     void information(String g,double s);
     void show();
 }
-
-
 class employee1 implements customer
 {
     String gen;
@@ -41,15 +34,12 @@ class employee1 implements customer
     public void information(String g,double s)
     {
         gen=g;
-        sal=s;
-        
+        sal=s;   
     }
-    
     public void show()
     {
         System.out.println("Gender of the employee:"+gen);
         System.out.println("Income of the employee:"+sal);
-        
         if(gen=="m")
         {
             if(sal<=190000)
@@ -61,7 +51,7 @@ class employee1 implements customer
             else//if salary>500000
                 System.out.println("Tax percentage:25%");
         }            
-        else//if gender=='f'
+        else//if gender=="f"
         {
            if(sal<=190000)
                 System.out.println("Tax percentage:NIL");
