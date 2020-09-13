@@ -10,8 +10,8 @@ import java.util.Scanner;
  * @author Baruni Priya T S
  */
 public class Divide_string_into_n_equal_parts {
-
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner obj=new Scanner(System.in);
         System.out.println("Enter the string:");
         String str=obj.next();//"abcdefghijklmnopqrstuvwxy"
