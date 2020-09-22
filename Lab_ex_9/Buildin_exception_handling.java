@@ -29,6 +29,7 @@ public class Buildin_exception_handling
             int a[]=new int[10];
             a[100]=100;//Error --> 100th index element can't be assigned a value as the array limit is 10 
             System.out.println("Element in index 100:"+a[100]);
+            System.out.println(c);
         }
         catch(ArrayIndexOutOfBoundsException e)
         {
