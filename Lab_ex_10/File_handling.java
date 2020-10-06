@@ -27,14 +27,14 @@ public class File_handling {
         }
         System.out.println("Name of the file : "+f.getName());//display the name of the file
         System.out.println("The file is readable : "+f.canRead());//returns true if readability of the file is enabled or else it returns false
-        System.out.println("The file is writable : "+f.canWrite());//returns true if writability of the file is enablea or else it returns false
+        System.out.println("The file is writable : "+f.canWrite());//returns true if writability of the file is enabled or else it returns false
         System.out.print("The type of file : ");
         char c[]=file.toCharArray();
         while(c[i]!='.')//until '.' character is encountered, increment 'i' value
             i++;
         for(int j=i;i<c.length;j++)
         {
-            System.out.print(c[j]);//printing the characters after the '.' charaacter-->type of file
+            System.out.print(c[j]);//printing the characters after the '.' character-->type of file
             i++;
         }
         System.out.println(" file");
