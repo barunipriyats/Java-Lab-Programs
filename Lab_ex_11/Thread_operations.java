@@ -4,9 +4,7 @@
  * and open the template in the editor.
  */
 package Lab_ex_11;
-
 import java.util.Scanner;
-
 /**
  *
  * @author Baruni Priya T S
