@@ -678,7 +678,7 @@ public class Personal_information1 extends javax.swing.JFrame {
                     catch(Exception e) {
                         Logger.getLogger(Personal_information1.class.getName()).log(Level.SEVERE, null, e);
                     }
-                    new Personal_information22(Username).setVisible(true);
+                    new Personal_information2(Username).setVisible(true);
                     this.setVisible(false);
                 }
                 else
