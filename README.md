@@ -1,4 +1,4 @@
 # Java Programs
-Java programs which contains lab works, worksheets and a mini-project.
+This repository consists of my academic lab works, worksheets and a mini-project.
 
 
